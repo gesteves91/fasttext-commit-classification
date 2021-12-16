@@ -37,6 +37,15 @@ This replication repository is designed to offer an architecture to classify com
 
     The machine learning model is stored in the **model** folder. The model is called **model.bin**. 
 
+    **Recommended Package**
+
+    We recommend the following packages for testing the model:
+
+    ```bash
+    pip install pandas
+    pip install fasttext
+    ```
+
     *Note that you may experience different f-score numbers per execution. It is recommended to run the script a certain number of times and then extract the average of the executions. The numbers are not expected to disperse a lot from the reported number though.*
 
     *We strongly recommend to auto-tuning the hyper-parameters of the model.*
